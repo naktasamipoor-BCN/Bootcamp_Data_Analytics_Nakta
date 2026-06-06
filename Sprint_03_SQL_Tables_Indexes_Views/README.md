@@ -1,73 +1,92 @@
-# Sprint 02 - SQL Fundamentals
+# Sprint 03 - SQL Tables, Indexes and Views
 
 This project is part of my Data Analytics bootcamp portfolio at IT Academy / Barcelona Activa.
 
-The main goal of this sprint was to practice SQL fundamentals using a relational database related to companies and transactions.
+The main goal of this sprint was to practice SQL table management, database modification, data integrity, foreign keys, indexes and views using a relational database related to companies, transactions, credit cards and users.
 
-The project focuses on database structure, table relationships, primary and foreign keys, JOIN queries, subqueries, aggregation functions and business-oriented SQL analysis.
+This sprint goes beyond basic queries and focuses on modifying the database structure, creating new tables, updating records, deleting data, creating views and validating relationships between tables.
 
 ---
 
 ## Main Objectives
 
-- Import and inspect relational database tables
-- Understand the structure of a relational schema
-- Identify primary keys and foreign keys
-- Analyze relationships between tables
-- Use JOINs to combine company and transaction data
-- Use subqueries without JOINs
-- Apply aggregation functions such as `COUNT`, `AVG` and `SUM`
-- Filter and sort business data
-- Use date and amount conditions
-- Apply `CASE` logic to classify companies based on transaction volume
+- Create a new relational table
+- Define primary keys and foreign keys
+- Validate referential integrity before creating relationships
+- Insert new records while respecting database constraints
+- Update existing data
+- Delete specific records safely
+- Modify table structure using `ALTER TABLE`
+- Remove unnecessary columns
+- Create reusable SQL views
+- Filter views for business analysis
+- Detect and solve foreign key integrity errors
+- Align the database model with a target entity-relationship diagram
 
 ---
 
-## Database Structure
+## Database Context
 
-The project uses a relational database called `transactions`.
+This sprint continues working with the relational database used in the previous SQL exercises.
 
-The database contains two main tables:
+The project includes tables related to:
 
-### `company`
+- Companies
+- Transactions
+- Credit cards
+- Users
 
-This table stores company information.
-
-Main fields include:
-
-- `id`: unique company identifier and primary key
-- `company_name`: company name
-- `phone`: phone number
-- `email`: email address
-- `country`: company country
-- `website`: company website
-
-### `transaction`
-
-This table stores transaction information.
-
-Main fields include:
-
-- `id`: unique transaction identifier and primary key
-- `credit_card_id`: credit card identifier
-- `company_id`: foreign key linked to the `company` table
-- `user_id`: user identifier
-- `lat`: latitude
-- `longitude`: longitude
-- `timestamp`: transaction date and time
-- `amount`: transaction amount
-- `declined`: transaction status
+A new table called `credit_card` is created to store credit card information and connect it correctly with existing transaction data.
 
 ---
 
-## Relationship Between Tables
+## Tools & Technologies
 
-The database follows a one-to-many relationship:
+- SQL
+- MySQL
+- MySQL Workbench
+- Relational databases
+- Primary keys
+- Foreign keys
+- Indexes
+- Views
+- `ALTER TABLE`
+- `UPDATE`
+- `DELETE`
+- `CREATE VIEW`
+- Entity-relationship diagrams
+- `information_schema`
 
-- One company can have many transactions.
-- Each transaction belongs to one company.
+---
 
-The relationship is created through:
+## Project Files
+
+- `sprint03_sql_tables_indexes_views.sql`: SQL script with the queries developed during the sprint
+- `task_s3_sql_tables_indexes_views.pdf`: final task report with explanations, screenshots and results
+- `README.md`: project documentation
+
+---
+
+## Exercises Included
+
+### Level 1 - Creating and Modifying Tables
+
+#### Exercise 1 - Create the `credit_card` Table
+
+A new table called `credit_card` is created to store information about credit cards.
+
+The table includes fields such as:
+
+- `id`
+- `iban`
+- `pan`
+- `pin`
+- `cvv`
+- `expiring_date`
+
+The `id` field is defined as the primary key, allowing each credit card to be uniquely identified.
+
+The relationship between `credit_card` and `transaction` is established through the field:
 
 ```sql
-transaction.company_id → company.id
+transaction.credit_card_id
