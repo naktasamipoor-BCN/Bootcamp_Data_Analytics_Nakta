@@ -633,6 +633,32 @@ section = st.sidebar.radio(
 # Overview
 # --------------------------------------------------
 if section == "Overview":
+    st.markdown(
+        """
+        <div style="
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(46, 204, 113, 0.28);
+            border-radius: 22px;
+            padding: 1.4rem 1.6rem;
+            margin-bottom: 1.6rem;
+        ">
+            <h1 style="color: #FFFFFF; margin-bottom: 0.3rem;">
+                Sustainable E-commerce Route Planning
+            </h1>
+            <p style="color: #B8C7D3; font-size: 1rem; margin-bottom: 0.8rem;">
+                Sprint 13 Final Project · Data Analytics Bootcamp
+            </p>
+            <p style="color: #EAF2F8; font-size: 1.02rem; line-height: 1.65; margin-bottom: 0;">
+                This dashboard presents a data-driven analysis of delivery route options by combining
+                time, cost, traffic, reliability and estimated CO₂ indicators. The goal is not to build
+                a production routing algorithm, but to show how a transparent data analysis workflow can
+                support route comparison and sustainable logistics decision-making.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.header("1. Project Overview")
 
     st.markdown(
