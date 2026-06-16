@@ -24,10 +24,12 @@ st.set_page_config(
 # --------------------------------------------------
 # Paths
 # --------------------------------------------------
-DATA_DIR = Path("data/outputs")
-REPORTS_DIR = Path("reports")
-PRESENTATION_DIR = Path("presentation")
-NOTEBOOK_PATH = Path("notebooks/sustainable_ecommerce_route_planning.ipynb")
+BASE_DIR = Path(__file__).resolve().parent
+
+DATA_DIR = BASE_DIR / "data" / "outputs"
+REPORTS_DIR = BASE_DIR / "reports"
+PRESENTATION_DIR = BASE_DIR / "presentation"
+NOTEBOOK_PATH = BASE_DIR / "notebooks" / "sustainable_ecommerce_route_planning.ipynb"
 
 
 # --------------------------------------------------
