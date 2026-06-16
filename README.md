@@ -1,4 +1,4 @@
-# Bootcamp Data Analytics Portfolio - Nakta Samipour
+# Bootcamp Data Analytics Portfolio - Timan (Nakta) Samipour
 
 This repository contains my Data Analytics bootcamp projects completed during the IT Academy / Barcelona Activa Data Analytics program in Barcelona.
 
