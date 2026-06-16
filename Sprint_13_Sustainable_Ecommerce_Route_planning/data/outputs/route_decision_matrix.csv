@@ -1,0 +1,7 @@
+Decision need,Route option ID,Route index,Delivery Option Score,Time (min),Cost,Estimated CO2 (kgCO2e),Traffic index,Reliability index,Reason
+Best overall balance,418,417,92.62,15.33,85.07,2.04,0.216,0.863,Highest final score after combining all criteria.
+Best for speed,715,714,88.95,1.43,16.7,0.75,0.471,0.669,Lowest optimized route time.
+Best for cost,350,349,88.12,2.32,15.29,1.05,0.668,0.729,Lowest optimized route cost.
+Best for low traffic,80,79,56.52,153.95,1059.67,27.18,0.204,0.742,Lowest traffic density index.
+Best for reliability,158,157,84.48,22.26,143.37,12.63,0.257,0.896,Highest route reliability index.
+Best for efficiency,715,714,88.95,1.43,16.7,0.75,0.471,0.669,Highest delivery efficiency score.

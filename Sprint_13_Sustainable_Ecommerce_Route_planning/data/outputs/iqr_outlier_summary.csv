@@ -1,0 +1,6 @@
+variable,column_name,records_used,q1,q3,iqr,lower_bound,upper_bound,outlier_count,outlier_share_pct
+Optimized route time,optimized_route_time_min,1000,28.3375,99.0725,70.73500000000001,-77.76500000000001,205.175,62,6.2
+Optimized route cost,optimized_route_cost,1000,255.315,776.875,521.56,-527.0249999999999,1559.215,24,2.4
+Carbon emissions,carbon_emission_kgco2e,12000,0.093,24.09125,23.99825,-35.904374999999995,60.08862499999999,1702,14.183333333333334
+Delivery efficiency score,delivery_efficiency_score,1000,0.0201,0.0839,0.0638,-0.0756,0.17959999999999998,113,11.3
+Final Delivery Option Score,delivery_option_score,1000,51.02360845715692,71.21525185443606,20.191643397279144,20.736143361238202,101.50271695035478,1,0.1

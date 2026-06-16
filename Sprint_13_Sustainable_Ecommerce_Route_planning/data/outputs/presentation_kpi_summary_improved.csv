@@ -1,0 +1,5 @@
+Project area,Main KPI message,How I use it later
+Route Planning,"Average optimized route time is 74.25 minutes, with an average cost of 565.86.",Used for time and cost components of the score.
+CO2 and Sustainability,"Average CO2 emissions are 71.99 kgCO2e, and the eco-friendly rate is 42.70%.",Used for the sustainability component of the score.
+Tracking and Reliability,"Clean on-time delivery rate is 36.91%, while clean delayed delivery rate is 63.09%.",Used for the reliability component of the score.
+Barcelona Traffic Context,"After excluding No data records, the most common valid Barcelona TRAMS traffic status is Fluid, with a valid prediction match rate of 77.21%.",Used as urban traffic context and project storytelling.

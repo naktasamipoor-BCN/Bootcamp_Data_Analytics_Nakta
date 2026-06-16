@@ -1,0 +1,4 @@
+route_example,distance_km,optimized_route_time_min,optimized_route_cost,traffic_density_index,delivery_efficiency_score,route_reliability_index
+Fastest route,1.066,1.43,16.7,0.471,1.235,0.669
+Cheapest route,1.496,2.32,15.29,0.668,1.205,0.729
+Most reliable route,18.049,22.26,143.37,0.257,0.172,0.896

@@ -1,0 +1,40 @@
+Area,KPI,Value,Unit,Interpretation
+Route Planning,Total route options,1000.0,routes,Number of available route options in the dataset
+Route Planning,Average distance,25.62,km,Typical route distance
+Route Planning,Average optimized route time,74.25,minutes,Typical optimized delivery time
+Route Planning,Minimum optimized route time,1.43,minutes,Fastest route option in the dataset
+Route Planning,Average optimized route cost,565.86,cost units,Typical optimized delivery cost
+Route Planning,Minimum optimized route cost,15.29,cost units,Cheapest route option in the dataset
+Route Planning,Average traffic density index,0.612,index,Average traffic pressure in the route data
+Route Planning,Average delivery efficiency score,0.083,score,Average efficiency score already available in the dataset
+Route Planning,Average route reliability index,0.604,index,Average reliability index already available in the dataset
+CO2 and Sustainability,Total carbon records,12000,records,Number of records in the carbon emissions dataset
+CO2 and Sustainability,Average distance,102.85,km,Typical route distance in the sustainability dataset
+CO2 and Sustainability,Average package weight,396.36,kg,Typical package weight
+CO2 and Sustainability,Average CO2 emissions,71.99,kgCO2e,Typical CO2 emissions per record
+CO2 and Sustainability,Minimum CO2 emissions,0.0,kgCO2e,Lowest emissions observed
+CO2 and Sustainability,Maximum CO2 emissions,1280.17,kgCO2e,Highest emissions observed
+CO2 and Sustainability,Eco-friendly delivery rate,42.7,%,Share of records marked as eco-friendly
+CO2 and Sustainability,Lowest average CO2 vehicle type,Cargo Bicycle,category,Vehicle type with the lowest average CO2 emissions
+CO2 and Sustainability,Lowest average CO2 route type,Urban Last Mile,category,Route type with the lowest average CO2 emissions
+Tracking and Reliability,Total tracked deliveries,6877,deliveries,Number of cleaned tracking records
+Tracking and Reliability,Valid status records,6839,deliveries,Records used for clean on-time and delayed rate calculation
+Tracking and Reliability,Clean on-time delivery rate,36.91,%,Share of valid delivery records marked as on-time
+Tracking and Reliability,Clean delayed delivery rate,63.09,%,Share of valid delivery records marked as delayed
+Tracking and Reliability,Conflicting status records,24,records,Records marked as both on-time and delayed
+Tracking and Reliability,Unknown status records,14,records,Records with neither on-time nor delayed flag
+Tracking and Reliability,Average transportation distance,553.82,km,Average transport distance
+Tracking and Reliability,Median transportation distance,160.0,km,"Median transport distance, useful because distances can be very spread out"
+Tracking and Reliability,Most common vehicle type,40 FT 3XL Trailer 35MT,category,Most frequent vehicle type in the tracking data
+Tracking and Reliability,Unique origin locations,180,locations,Number of different origin locations
+Barcelona Traffic Context,Total TRAMS records,11661440,records,Total number of Barcelona TRAMS traffic records
+Barcelona Traffic Context,Valid TRAMS records,6150264,records,"Records with meaningful traffic status, excluding No data"
+Barcelona Traffic Context,No data share,47.26,%,Share of records where traffic status is not available
+Barcelona Traffic Context,Most common valid traffic status,Fluid,category,Most frequent actual traffic status after excluding No data
+Barcelona Traffic Context,High congestion share,5.8,%,Share of valid records classified as Very dense or Congestion
+Barcelona Traffic Context,Valid actual-predicted status match rate,77.21,%,Share of valid records where predicted and actual status are equal
+CO2 and Sustainability,Average CO2 emission intensity,0.2466,kgCO2e/km,Average carbon emissions per kilometre
+CO2 and Sustainability,Estimated CO2 saving from 50% Diesel to EV scenario,30167.33,kgCO2e,Estimated reduction in the simplified fleet transition scenario
+CO2 and Sustainability,Estimated saving percentage from scenario,80.67,%,Estimated relative reduction for replaced diesel trips
+Tracking and Reliability,Average congestion delay,80.8,minutes,Average increase in delivery time caused by congestion in Q5 sheet
+Tracking and Reliability,Average congestion delay percentage,112.19,%,Average percentage increase caused by congestion in Q5 sheet

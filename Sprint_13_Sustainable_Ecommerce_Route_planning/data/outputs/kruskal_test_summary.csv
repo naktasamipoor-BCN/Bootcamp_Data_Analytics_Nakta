@@ -1,0 +1,4 @@
+test,group_column,value_column,number_of_groups,h_statistic,p_value
+CO2 emissions by vehicle type,vehicle_type,carbon_emission_kgco2e,7,11190.479071831653,0.0
+CO2 emissions by route type,route_type,carbon_emission_kgco2e,4,10196.090671146121,0.0
+CO2 emissions by traffic conditions,traffic_conditions,carbon_emission_kgco2e,4,41.1729467734563,6.00955597715362e-09

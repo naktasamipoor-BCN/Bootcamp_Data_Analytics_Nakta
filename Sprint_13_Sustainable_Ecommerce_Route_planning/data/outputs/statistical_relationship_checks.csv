@@ -1,0 +1,7 @@
+relationship,x_variable,y_variable,records_used,spearman_rho,p_value
+Carbon distance vs CO2 emissions,distance_km,carbon_emission_kgco2e,12000,0.9320717102829065,0.0
+Delivery Option Score vs optimized route cost,optimized_route_cost,delivery_option_score,1000,-0.8463287495626672,2.968124357219373e-275
+Delivery Option Score vs estimated CO2,estimated_co2_kgco2e,delivery_option_score,1000,-0.8366432006432007,3.831627575646647e-263
+Delivery Option Score vs optimized route time,optimized_route_time_min,delivery_option_score,1000,-0.8276134816844952,1.5124357562733829e-252
+Route distance vs optimized route time,distance_km,optimized_route_time_min,1000,0.8079061064990667,1.9893003520581463e-231
+Traffic density vs route reliability,traffic_density_index,route_reliability_index,1000,-0.7132459301040698,3.3260492438797313e-156

@@ -1,0 +1,2 @@
+scenario,diesel_trips_total,replacement_share_pct,current_emissions_for_replaced_trips_kgco2e,estimated_ev_emissions_kgco2e,estimated_co2_saved_kgco2e,estimated_saving_pct
+Replace 50% of Diesel Van trips with Electric Van,3474,50.0,37396.9945,7229.6678749361,30167.3266250639,80.66778367727892

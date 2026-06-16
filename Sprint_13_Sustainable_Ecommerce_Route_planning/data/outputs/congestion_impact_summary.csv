@@ -1,0 +1,3 @@
+city,avg_without_congestion_min,avg_with_congestion_min,avg_congestion_delay_min,avg_congestion_delay_pct
+Bangalore,76.5,164.2,87.7,114.87614221216154
+Mumbai,67.6,141.5,73.9,109.50904977375565
