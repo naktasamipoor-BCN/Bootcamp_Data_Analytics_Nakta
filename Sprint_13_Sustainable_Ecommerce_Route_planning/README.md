@@ -12,6 +12,16 @@ The project uses public datasets to explore these factors and builds a simplifie
 
 ---
 
+## Live Dashboard
+
+The interactive Streamlit dashboard is available here:
+
+https://sustainable-ecommerce-route-planning.streamlit.app/
+
+The dashboard presents the main outputs of the Sprint 13 final project, including route scoring, top delivery options, CO₂ and vehicle analysis, traffic context, reliability indicators, validation checks, reports, presentation files and notebook outputs.
+
+---
+
 ## Project Objectives
 
 The main objectives of this project are:

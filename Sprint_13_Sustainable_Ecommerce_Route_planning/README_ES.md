@@ -10,6 +10,16 @@ La idea principal del proyecto es simple: una opción de entrega no debería eva
 
 ---
 
+## Dashboard interactivo
+
+El dashboard interactivo en Streamlit está disponible aquí:
+
+https://sustainable-ecommerce-route-planning.streamlit.app/
+
+El dashboard presenta los principales resultados del proyecto final del Sprint 13, incluyendo la puntuación de rutas, las mejores opciones de entrega, el análisis de CO₂ y vehículos, el contexto de tráfico, los indicadores de fiabilidad, las comprobaciones de validación, los informes, la presentación y las salidas del notebook.
+
+---
+
 ## Objetivos del proyecto
 
 - Analizar el rendimiento de rutas de entrega de e-commerce.
